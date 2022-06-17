@@ -1,0 +1,30 @@
+body {
+    background-color: aqua;
+}
+
+h3 {
+    font-size: 25px !important;
+}
+
+.btn-success :hover {
+    background-color: red;
+}
+
+canvas {
+    border: 2px solid black;
+    animation-name: SKEW;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes SKEW {
+    20% {
+        transform: skewY(30deg);
+    }
+    40% {
+        transform: skewY(20deg) translateY(25px);
+    }
+    60% {
+        transform: skewY(30deg);
+    }
+}
